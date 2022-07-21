@@ -608,6 +608,15 @@ footer {
         margin: 2em 0 2em 0;
     }
 
+    .pricing-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing-phone {
+        margin-bottom: 1em;
+    }
+
     .footer-page-link {
         display: none;
     }
