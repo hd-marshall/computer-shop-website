@@ -365,11 +365,12 @@ header {
 
 .pricing {
     background-image: linear-gradient(var(--contrast-clr), var(--black-clr));
+    padding-bottom: 3em;
 }
 
 .pricing h2 {
     text-align: center;
-    padding: 1em 0 1em 0;
+    padding: 0.5em 0 1em 0;
     font-family: var(--font-fam);
     color: var(--white-clr);
     font-size: 2.3em;
