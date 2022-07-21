@@ -363,6 +363,72 @@ header {
     display: flex;
 }
 
+.pricing {
+    background-image: linear-gradient(var(--contrast-clr), var(--black-clr));
+}
+
+.pricing h2 {
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-family: var(--font-fam);
+    color: var(--white-clr);
+    font-size: 2.3em;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.pricing-grid h2 {
+    font-family: var(--font-fam);
+    color: var(--white-clr);
+    font-size: 1.5em;
+}
+
+.pricing-grid p {
+    font-family: var(--font-fam);
+    color: var(--white-clr);
+    font: 1em;
+    width: 80%;
+    padding-bottom: 1em;
+}
+
+.pricing-grid i {
+    color: var(--white-clr);
+    font-size: 1.5em;
+}
+
+.pricing-phone {
+    background-color: var(--blue-clr);
+    width: 80%;
+    height: 250px;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--contrast-clr);
+    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.332);
+    margin: auto;
+}
+
+.pricing-in-person {
+    background-color: var(--blue-clr);
+    width: 80%;
+    height: 250px;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--contrast-clr);
+    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.332);
+    margin: auto;
+}
+
 footer {
     background-color: var(--blue-clr);
     display: grid;
