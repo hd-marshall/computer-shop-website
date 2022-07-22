@@ -524,11 +524,11 @@ footer {
         padding: 10px;
         background-color: var(--blue-clr);
         color: var(--white-clr);
-        top: 50%;
+        top: 55%;
     }
 
     .hero button {
-        top: 60%;
+        top: 70%;
     }
 
     .hero img {
